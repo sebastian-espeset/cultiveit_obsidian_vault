@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"a4caf81bc6e7a308","type":"text","text":"BB SlackBot","x":-272,"y":-235,"width":152,"height":50,"color":"3"},
+		{"id":"38d20b6c4a6a5a4b","type":"text","text":"- Share songs with coworkers\n- Make all shared songs into a playlist","x":40,"y":-90,"width":221,"height":110,"color":"3"},
+		{"id":"9b24e57ef63a4874","type":"text","text":"# Notes on where to start\n- Zapier?\n- Orient around Team building\n- *Can we start to incorporate more… team building experiences over slack?*\n- “Using teams as an empowering experience”\n- “Beyond Burnout”\n- “Lightweight add-ons that help us understand feedback”","x":-55,"y":180,"width":440,"height":248},
+		{"id":"7ecc1b1b97d609c5","type":"text","text":"Spotify Account\n","x":-479,"y":-60,"width":163,"height":50,"color":"1"},
+		{"id":"7a790da1072106e6","type":"text","text":"- Upcoming shows from followed artists\n- Upcoming album releases\n- New singles out","x":-522,"y":140,"width":250,"height":174,"color":"1"},
+		{"id":"baaead8b7fc7bda7","type":"text","text":"## Auth?\n","x":-445,"y":40,"width":97,"height":60,"color":"1"},
+		{"id":"d453becd1b8de3e1","type":"text","text":"- Sends nudge about upcoming show\n- Sends nudge about album release\n- Sends nudge about new single\n- etc","x":42,"y":-310,"width":217,"height":200,"color":"3"},
+		{"id":"c0e02129c37c15b8","type":"text","text":"### Nudge\n*would you like to integrate Spotify?*\n\n","x":648,"y":-269,"width":250,"height":109},
+		{"id":"c008d96dd58acf63","type":"text","text":"### What’s the benefit?\n- integrated playlists\n- news on your fav artist\n### What info we’ll access\n- liked artists\n- followed artists","x":1300,"y":-351,"width":250,"height":274},
+		{"id":"40a43176b90ba74d","type":"text","text":"### **Authentication**\n","x":1300,"y":150,"width":250,"height":60},
+		{"id":"829ff86d00ce6858","type":"text","text":"### Should we ask again?\n","x":648,"y":60,"width":250,"height":60},
+		{"id":"dc14b778964f9318","type":"text","text":"### We’ll remind you","x":500,"y":210,"width":250,"height":60},
+		{"id":"d65553c4bbe25953","type":"text","text":"### Can be turned on at dashboard?","x":820,"y":210,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"191b972a0e544a0a","fromNode":"7a790da1072106e6","fromSide":"top","toNode":"7ecc1b1b97d609c5","toSide":"bottom"},
+		{"id":"e7d37e06f57e8eda","fromNode":"7ecc1b1b97d609c5","fromSide":"top","toNode":"a4caf81bc6e7a308","toSide":"left"},
+		{"id":"ac75e74c07e7c296","fromNode":"a4caf81bc6e7a308","fromSide":"right","toNode":"d453becd1b8de3e1","toSide":"left"},
+		{"id":"53fdf98375ec2f47","fromNode":"38d20b6c4a6a5a4b","fromSide":"left","toNode":"7ecc1b1b97d609c5","toSide":"right"},
+		{"id":"5d442e6fa4176303","fromNode":"a4caf81bc6e7a308","fromSide":"bottom","toNode":"baaead8b7fc7bda7","toSide":"right"},
+		{"id":"4cb5dd8f6391d720","fromNode":"c0e02129c37c15b8","fromSide":"bottom","toNode":"829ff86d00ce6858","toSide":"top","color":"1","label":"No"},
+		{"id":"4409b8867a35446d","fromNode":"c008d96dd58acf63","fromSide":"bottom","toNode":"40a43176b90ba74d","toSide":"top","label":"MYSTERY"},
+		{"id":"3f836aa5bc27704f","fromNode":"c0e02129c37c15b8","fromSide":"right","toNode":"c008d96dd58acf63","toSide":"left","color":"4","label":"Yes"},
+		{"id":"fa16c10526fa2b0e","fromNode":"829ff86d00ce6858","fromSide":"bottom","toNode":"dc14b778964f9318","toSide":"top","color":"4","label":"Yes"},
+		{"id":"4487ac34d9d7be90","fromNode":"829ff86d00ce6858","fromSide":"bottom","toNode":"d65553c4bbe25953","toSide":"top","color":"1","label":"No"}
+	]
+}
